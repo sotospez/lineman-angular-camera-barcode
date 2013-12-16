@@ -7,13 +7,13 @@ Use lineman ,lineman-angular ,grunt
 1. menu camera just take a photo 
 2. menu barcode scan barcode from camera 
 
-with worker Barcode_Reader V1.0 by Eddie Larsson -  https://github.com/EddieLa/BarcodeReader
+with worker [Barcode_Reader V1.0 by Eddie Larsson] (https://github.com/EddieLa/BarcodeReader)
 
-getusermedia http://www.simpl.info/
+[getusermedia](http://www.simpl.info/) simpl.info
 
-lineman https://github.com/testdouble/lineman
+[lineman](https://github.com/testdouble/lineman)
 
-grunt   http://gruntjs.com/
+[grunt](http://gruntjs.com/)
 
 
 Barcodereader for Code128, Code93, Code39 and EAN-13 barcodes 
