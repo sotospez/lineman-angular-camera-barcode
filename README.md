@@ -1,4 +1,4 @@
-# angular camera barcoce
+# angular camera barcode
 
 Demo test camera Html5 with angular
 
