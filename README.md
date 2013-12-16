@@ -2,11 +2,12 @@
 
 Demo test camera Html5 with angular
 Use lineman ,lineman-angular ,grunt
-  menu camera just take a photo 
-  menu barcode scan barcode from camera 
-  with worker Barcode_Reader V1.0 by Eddie Larsson -  https://github.com/EddieLa/BarcodeReader<br>
-  Barcodereader for Code128, Code93, Code39 and EAN-13 barcodes 
+menu camera just take a photo 
+menu barcode scan barcode from camera 
+with worker Barcode_Reader V1.0 by Eddie Larsson -  https://github.com/EddieLa/BarcodeReader<br>
+Barcodereader for Code128, Code93, Code39 and EAN-13 barcodes 
 
+[live](http://sotos.gr/demos/test/lineman-angular-camera-barcode)
 
 # Instructions
 1. `git clone https://github.com/sotospez/lineman-angular-camera-barcoce.git my-app`
