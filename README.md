@@ -12,7 +12,8 @@ Barcodereader for Code128, Code93, Code39 and EAN-13 barcodes
 
 [getusermedia](http://www.simpl.info/) simpl.info
 
-
+This demo requires Chrome 30 or later.
+ 
 [live site](http://sotos.gr/demos/test/lineman-angular-camera-barcode)
 
 # Instructions
