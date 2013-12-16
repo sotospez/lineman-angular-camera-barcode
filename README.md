@@ -9,9 +9,16 @@ Use lineman ,lineman-angular ,grunt
 
 with worker Barcode_Reader V1.0 by Eddie Larsson -  https://github.com/EddieLa/BarcodeReader
 
+getusermedia http://www.simpl.info/
+
+lineman https://github.com/testdouble/lineman
+
+grunt   http://gruntjs.com/
+
+
 Barcodereader for Code128, Code93, Code39 and EAN-13 barcodes 
 
-[live](http://sotos.gr/demos/test/lineman-angular-camera-barcode)
+[live site](http://sotos.gr/demos/test/lineman-angular-camera-barcode)
 
 # Instructions
 1. `git clone https://github.com/sotospez/lineman-angular-camera-barcode.git my-app`
