@@ -1,0 +1,19 @@
+{
+  "name": "lineman-angular-camera-barcode",
+  "title": "An HTML/JS/CSS app",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Sotiris Pezouvanis",
+    "company": "sotos.gr"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "lineman": "~0.21.0",
+    "lineman-angular": ">=0.0.2"
+  },
+  "engines": {
+    "node": "~>0.10.5",
+    "npm": "~>1.2.18"
+  }
+}

@@ -1,0 +1,61 @@
+<div class="row toolbar">
+    <div class="col-md-3">
+    <label for='videoSource'>Video source: </label>
+  <select ng-model="videoSelected" ng-options="c.label for c in medias.video"></select>
+    </div>
+   
+    <div class="col-md-3">
+    <label for='audioSource'>Audio source: </label>
+    <select ng-model="audioSelected" ng-options="c.label for c in medias.audio"></select>
+    </div>
+  
+    <div class="col-md-2">
+    <button type="button" ng-click="start()" class="btn btn-success  btn-block"><i class="fa fa-play"></i> Start</button>
+    </div> 
+  
+   <div class="col-md-2">
+   <button ng-click="stop()" type="button" class="btn btn-warning  btn-block"><i class="fa fa-stop"></i> Stop</button>
+   </div> 
+  
+   <div class="col-md-2">
+   <button ng-click="scanBarcode()" type="button" class="btn btn-info  btn-block"><i class="fa fa-bolt"></i> Scan</button>
+   </div> 
+</div> 
+   
+<div class="row">
+<div class="col-md-6">
+ <video  id="video1" muted autoplay controls ng-model="video" width="100%" height="100%"></video>
+  </div>
+  
+ <div class="col-md-6">
+ <div class="panel panel-info">
+ <div class="panel-heading">Settings</div>
+  <div class="panel-body">
+    <ul class="list-group">
+    <li class="list-group-item"  >
+ <div >
+   <button ng-click="autoscanON()" type="button" class="btn btn-info  btn-block"><i class="fa fa-bolt"></i> Auto Scan ON</button>
+   <button ng-click="autoscanOFF()" type="button" class="btn btn-warning  btn-block"><i class="fa fa-bolt"></i> Auto Scan OFF</button>
+   <div>Auto Scan is : {{autoscan}} {{scan}} {{scanning}} </div>
+   
+   </div> 
+    
+    <li class="list-group-item"  >
+   Time Scan: <input type="number" name="input" ng-model="timeScan"
+                     min="3000" max="10000" required></li>
+</ul>
+</div>
+  </div>
+ <div class="panel panel-success">
+ <div class="panel-heading">Barcodes</div>
+  <div class="panel-body">
+    <ul class="list-group">
+  <li class="list-group-item" ng-repeat="barcode in barcodeData" >{{barcode}}</li>
+  
+</ul>
+</div>
+  </div>
+  </div>
+  
+</div> 
+
